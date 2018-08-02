@@ -1,0 +1,895 @@
+.navbar-toggle {
+	position: relative;
+	float: left;
+	padding: 9px 10px;
+	background-color: transparent;
+	background-image: none;
+	border: 1px solid #000;
+	border-radius: 4px;
+}
+.navbar-toggle .icon-bar {
+	display: block;
+	width: 22px;
+	height: 2px;
+	border-radius: 1px;
+	background-color: #000;
+}
+.navbar-toggle .icon-bar+.icon-bar {
+	margin-top: 4px;
+}
+.collapse {
+	display:none;
+}
+.collapse.in {
+	display: block;
+}
+
+.navbar-collapse.in {
+	overflow-y: auto;
+}
+
+@media (min-width:769px) {
+    .listing .list .list-title {
+   
+    margin-top: 145px !important;
+}
+.navbar-toggle {
+	display: none;
+}
+.navbar-collapse.collapse {
+	display: block!important;
+	height: auto!important;
+	padding-bottom: 0;
+	overflow: visible!important;
+}
+}
+@media (min-width:992px) {
+.container {
+	width: 972px;
+}
+}
+
+@media (min-width:1200px) {
+.container {
+	width: 1024px;
+}
+}
+
+@media (min-width:1279px) {
+.container {
+	width: 1200px;
+}
+}
+@media screen and (min-width:768px) {
+    #category{
+    border-bottom-right-radius: 0px !important;
+       margin-right: -5px !important;
+    border-right: 0px;
+    border-top-right-radius: 0px !important;
+}
+.cart-products-loaded2{
+    margin-top: 25px;
+}
+    .singlelist .bx-pager{
+    display:none !important;
+    
+}
+
+  
+.hide_desk, .mob_vinga {
+  display: none !important;
+}
+
+}
+@media screen and (max-width:768px) {
+       .modalForm {
+    /* min-width: 360px; */
+    padding: 3% 4%;
+    background: #f7f4f4;
+    margin: 22px 0px;
+}
+    .nav-submit-button {
+  
+    height: 39px;
+    right: -33px;
+    top: 10px;
+}
+    header .nav-submit-button {
+
+    right: -33px;
+   
+}
+    .nav-searchfield-outer {
+   
+       margin-left: -98px;
+    margin-top: 5px;
+    width: 100%;
+}
+    .search_bar {
+    width: 100%;
+    }
+    #nav-search-in {
+ 
+    left: 3px;
+    }
+    .innerpage header .search form input[type=search] {
+   
+    padding-left: 4px !important;
+}
+    #category {
+    font-size: 16px !important;
+    width: 20px;
+    border-radius: 0px !important;
+}
+    .innerpage header .search form input[type=search] {
+    width: 244px;
+    border-radius: 0px !important;
+}
+  #btnSubmit  {
+    font: inherit;
+    line-height: 1.6;
+    display: inline-block;
+    padding: 9px 18px;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+ border-radius:0px;
+    height: 42px;
+    /* margin-right: 7px !important; */
+    /*border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px;*/
+}
+      .quick_list  {
+    width: 100% !important;
+   
+    float: none !important;
+}
+    .new_divx h3  {
+    font-size: 14px;
+    white-space: normal !important;
+}
+     .mob_flex_single ul li {
+       width: 54% !important;
+    margin-bottom: 1em;
+}
+    .new_divx .small-btn {
+
+   /* width: 60% !important;*/
+    margin-left: 20%;
+    display: block;
+    text-align: center !important;
+}
+    
+   .stock {
+    font-size: 13px;
+    text-align: left;
+    padding: 1% 0% 15% 3%;
+}
+    .visa img {
+    width: auto !important;
+    height: 60px !important;
+    display: inline !important;
+    margin-top: 8px;
+}
+    .mob_flex  {
+        
+           background: #fff !important; 
+    }
+  
+  .mob_price_bar a{
+    font-weight:bold !important;
+}
+   .mob_vinga {
+    color: white;
+    font-size: 23px;
+}
+  #wits_barx2    .mob_vinga {
+     color: black !important;
+    right: 12px !important;
+    }
+    .new_div .price {
+
+    color: black !important;
+}
+    .container1 > h2 {
+  
+    margin-top: 1px;
+   
+}
+
+#wits_barx, #wits_barx {
+   
+    z-index: 66699999 !important;
+}
+    html, body {
+    max-width: 100%;
+    overflow-x: hidden !important;
+}
+    .tablinks li a {
+    font-size: 14px;
+  
+    padding: 6px 11px;
+    }
+    .modal-dialog-order {
+ 
+    width: 90% !important;
+    }
+    .mob_flex {
+    
+    overflow: auto !important;
+    white-space: nowrap !important;
+}
+.mob_flex ul li {
+    display: inline-block !important;
+    color: white !important;
+    text-align: center !important;
+    padding: 14px !important;
+    text-decoration: none  !important;
+    background: white;
+        float: none !important
+    
+}
+.mob_flex .quickview div h3 {
+
+    white-space: normal !important;
+}
+   .mob_bott_heda {
+    background: #f5e005;
+    padding: 12px;
+    text-align: center;
+}
+.mob_flex::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: #aaa; /* or add it to the track */
+}
+.mob_flex::-webkit-scrollbar-button {
+    background-size: 100%;
+    height: 10px;
+    width: 10px;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+.mob_flex::-webkit-scrollbar-button:end {
+    display: block;
+}
+
+.mob_flex::-webkit-scrollbar-button:start {
+    display: none;
+}
+
+.mob_flex::-webkit-scrollbar-button:horizontal:increment { /* Right */
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAV0lEQVQ4T73TwQoAIAgD0Pnn9eWFh27qFlJCt3wFU0OzLOkfAPzQyoAFYCpIBfjrFGEARRSgRFQgRW6AEPkKhImoP0jjVIByFhjQGiTa7LE8Wya6hefCBhILGhGzGTl7AAAAAElFTkSuQmCC);
+}
+
+.mob_flex::-webkit-scrollbar-button:horizontal:decrement { /* Left */
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAWUlEQVQ4T72TQQoAIAgEt5fX08ODYJbgKiR4c0YUHWjGIPgFQPKIrEDACeCqzwgUls60wMK0wMOU4AWnBRH8TyCdWiPoobSWGEnoO/DjlARWUhaopPxM4dNugpQOESmtVbwAAAAASUVORK5CYII=);
+}
+.quick_ul {
+    width: 64%;
+    margin: 0 auto;
+}
+/* Add a thumb */
+.mob_flex::-webkit-scrollbar-thumb {
+    background: yellow; 
+}
+    .leta_share_btns img {
+    height: 39px;
+}
+    .leta_share_btns {
+      left: 2%;
+    width: 16%;
+    /* top: 3px; */
+    bottom: -172px;
+}
+   #myModal2 .buttons {
+    margin-top: 3px !important;
+}
+    .input-group img {
+    height: 18px !important;
+    
+}
+    .cart-item img {
+    height: 34px;
+    width: auto !important;
+    margin-top: 3px !important;
+}
+   #myModal2 .button {
+    font: inherit;
+    line-height: 1.6;
+    display: inline-block;
+    padding: 1px 16px;
+    border-radius: 0px !important;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+    #myModalnan ul li {
+    list-style: none;
+    padding: 4px !important;
+    font-weight: bold !important;
+}
+   .innerpage footer ul li:first-child {
+    float: unset !important;
+    text-align: center !important;
+} footer ul {
+  
+    text-align: center !important;
+}
+footer ul li.social {
+   
+    
+    width: 100% !important;
+}
+.wish_btn {
+    
+   
+    display: inline-block !important;
+    border-radius: 0px;
+    padding: 5px 5px 1px;
+    position: absolute !important;
+    right: 3px;
+    top: 1px;
+}
+.listing .list ul li section.name {
+    padding: 29px 0 0px 9px;
+    text-align: left;
+  
+}
+.mob_60 .listing .list ul li section.price article {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.listing .list ul li section.price{
+    color: black;
+    background-color: transparent !important;
+    text-align:center;
+   
+}
+.mob_drop {
+   
+   /* background: yellow;*/
+       font-size: 16px;
+      /* text-align:center;*/
+}
+
+.listing .list ul li section.image span,
+.profile .listing ul li section.image span,
+.listing .related div ul li section.image span {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 0%;
+   
+    display: block;
+}
+.mop_push   { padding-left: 7%;
+}
+mob_drop .fas {
+  
+    margin-right: 2px !important;
+}
+.small-btn {
+padding: 5px 12px;
+    font-weight: bold;
+    font-size: 11px;
+    border-radius: 3px !important;
+    width: 90% !important;
+}
+
+.home_intro{
+ font-size: 15px !important;    
+}
+.listing .list ul li > div {
+   height: 226px !important;
+}
+.mob_40{
+    float: left;
+    width: 40%;
+      height: 221px;
+    display: table;
+}
+
+.mob_60{
+float:left; 
+width:60%
+}
+.close {
+    background: black;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    color: yellow !important;
+    font-size: 27px;
+    line-height: 1 !important;
+    padding: 2px 5px !important;
+    border-radius: 0px !important;
+}
+
+
+a, a:hover {
+	border:none !important;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 13px !important;
+}
+header, footer {
+	height: auto;
+}
+.container {
+	width: 100%;
+	padding: 0 15px;
+}
+
+header nav ul.right li a {
+	margin-left:0px;
+	padding:0px 10px;
+}
+
+.landing {
+	width: 100%;
+}
+.landing img {
+  width:80%;
+	margin:10px auto;
+}
+.landing form input[type=search] {
+    width: 60%;
+    border-radius: 0px !important;
+}
+
+.navbar-toggle {
+	display: block;
+}
+.navbar-collapse {
+	position:fixed;
+	left:0;
+	top:60px;
+	width:200px;
+	-webkit-transition: all 0.6s ease;
+	-moz-transition: all 0.6s ease;
+	-o-transition: all 0.6s ease;
+	-ms-transition: all 0.6s ease;
+	transition: all 0.6s ease;
+}
+.navbar-collapse ul li {
+	display:block;
+}
+.navbar-collapse ul li a {
+	margin:0;
+	padding:10px 15px;	
+}
+
+.innerpage header .logo {
+    width: 40%;
+    float: left;
+    margin-left: 18%;
+}
+.innerpage header .logo img {
+	float: left;
+}
+.innerpage header nav {
+    width: 20%;
+    float: left;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+.innerpage header .search {
+	width: 100%;
+	float: none;
+	padding-top: 15px;
+    margin: 0.1em auto;
+}
+.innerpage header .search form input[type=search] {
+	width: 200px;
+}
+.innerpage body .maincontent {
+	padding-top: 100px;
+}
+.innerpage footer {
+	height: auto;
+}
+
+/* Listing view */
+.listing .list .list-title form, .listing .list ul, .profile .listing ul {
+	width: 100%;
+}
+.listing .list ul li, .profile .listing ul li, .listing .related div ul li {	
+	width: 50%;
+	background:#FFF;
+}
+.listing .bar {
+    display: block;
+    /* padding: 40px 0 20px 0; */
+    /* overflow-x: auto; */
+    position: fixed;
+    z-index: 99999 !important;
+    top: 7px;
+    width: 82%;
+    right: 0px;
+    padding: 1% 0% 6%;
+}
+.your_cart_mob{
+    background: black;
+ margin-top: -5px !important;
+    margin-right: 0px !important;
+    color: white;
+    padding: 6% 0% !important;
+    border-bottom: solid 1px;
+    height: 47px;
+}
+.bar .container {
+   
+    padding: 0 0px !important;
+}
+
+.mob_vinga {
+position: absolute;
+    right: 1px;
+        top: 9px;
+    z-index: 999999;
+
+    
+}
+.wish_list_heart{
+    height: 20px;
+}
+#wits_barx2 .copy {
+    width: 100%;
+    position: absolute;
+    background: black;
+    bottom: 4px 0px 10px;
+    color: white;
+    bottom: 0px;
+    height: 42px;
+    font-weight: bold;
+}
+.mob_drop .fas {
+    margin-right: 10px !important;
+    font-size: 12px;
+}
+#wits_barx2 span{
+    padding-left:0px !important;
+}
+#wits_barx .mob_vinga {
+    position: absolute;
+    left: 12px;
+    top: 9px;
+}
+#drawer-handle:after {
+    content: "<";
+    position: absolute;
+    top: 50%;
+    padding: 2px;
+}
+#wits_barx {
+    width: 263px;
+   margin-right: -263px;
+    height: 100%;
+        background: white;
+    /*  overflow: hidden;
+     display:none;*/
+    
+}
+#wits_barx input,#wits_barx .cart_plus_min{
+ border:0px !important;   
+    }
+ #wits_barx .mbaaaa a {
+color: #292727 !important;
+    font-weight: bold;
+}  
+
+#wits_barx .nav_cart_btn {
+ 
+ 
+    color: #212121;
+}
+#wits_barx .bow-btn {
+    background-color: #f4bf18;
+    color: #000;
+    padding: 6px !important;
+}
+ #wits_barx .input-group img {
+
+ /*   background: gray;*/
+}
+    .invo a {
+    color: black !important;
+}
+#wits_barx .close {
+    background: none !important;
+    font-weight:bold !important;
+}
+#drawer-handle2:after {
+    content: "<";
+    position: absolute;
+    top: 50%;
+    padding: 2px;
+}
+#wits_barx2 {
+background: white;
+    height: 100%;
+    position: fixed;
+    z-index: 9999999 !important;
+    width: 263px;
+    top: 0px;
+     margin-left: -263px;
+     font-size: 12px !important;
+   
+      /*  overflow: hidden;
+     display:none;*/
+    
+}
+#wits_barx2 .social{
+     margin-top: 57px;
+    padding-left: 20%;
+  
+}
+.meshim_widget_components_mobileChatButton_ButtonBar .button_text {
+  
+    display: none !important;
+
+}.invo .fas{
+      position: absolute !important;
+    right: -138px;
+    top: -8px;
+}
+#myElement {
+    height: auto;
+    padding: 9px 0px 17px 5px;
+    z-index: 999999999999999999999 !important;
+    text-align: center;
+    right: 1%;
+    position: absolute;
+    top: 0px;
+}
+.nav_cart_btn {
+    width: 18px !important;
+}
+#cart-info{
+   /* background: green;
+    width: 200px;
+    height: 100px;*/
+}
+.mob_bott{
+    text-align: center;
+    margin-top: 7%;
+    border-top: solid 1px lightgray;
+}
+#wits_barx2 svg{
+    height: 18px !important;
+}
+.mob_bott ul li {
+    display: inline !important;
+    padding: 1px 5px !important;
+}
+#wits_barx2 a {
+color: black;
+    font-size: 15px;
+ 
+}
+.noresults {
+    width: 100%;
+   
+    padding: 10px 1px;
+}
+#mob_bott a {
+
+    font-size: 14px !important;
+ 
+}
+.myElementHome {
+ 
+    top: 17px !important;
+}
+.wits_barx2_acc a {
+    list-style: none;
+   color:yellow !important;
+}
+#wits_barx2 ul li {
+    list-style: none;
+    padding: 11px 57px;
+}
+#myModalnan .modal-dialog {
+    top: -2% !important;
+    
+    width: 70%;
+
+}
+
+
+.container2 {
+  
+    width: 100%;
+}
+.visa img {
+width: auto !important;
+    display: inline !important;
+    margin: 14px auto;
+    max-height: 84px;
+}
+.container_slider {
+    white-space: nowrap !important;
+    overflow-x: hidden !important;
+    overflow-y: scroll;
+    height: 512px;
+}
+.yiana {
+    width: 100% !important;
+}.visa {
+       width: 32% !important;
+}
+.invo {
+    width: 67% !important;
+    float: right;
+    padding-left: 1% !important;
+ 
+}
+.container2 ul li {
+    width: 100%;
+    display: block;
+    padding-left: 1%;
+    border-bottom: solid 1px #e4dfdf;
+}
+.container1 {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.container3 {
+float: left;
+    width: 100%;
+    text-align: center;
+    background: #e6e5e5;
+    color: black !important;
+    padding: 3% 0% 9%;
+    position: absolute;
+    bottom: -13px;
+}
+.listing .list ul li section.image {
+	/*height:160px;
+	    height: 212px;*/
+	
+    height: auto !important;
+    display: table-cell !important;
+    vertical-align: middle !important;
+}
+
+
+.cart_list_img {
+      height: 69px !important;
+}
+
+/* Single view */
+.singlelist .specs h3 {
+	text-align:center;
+}
+.singlelist .nav_cart_qty, .singlelist .float_cart_actions {
+	text-align:center;
+  padding:1em 0;
+}
+.singlelist .nav_cart_qty .quantity {
+	border:1px solid #c7c7c7 !important;
+}
+.singlelist .item .gallery, .singlelist .specs {
+	width:100%;
+	float:none;
+	margin:2.5em auto;
+}
+.singlelist .specs {
+	padding:0;
+}
+.singlelist .item .gallery > ul, .singlelist .item .gallery > ul li {
+	float: left;
+	overflow-y: auto;
+}
+.singlelist .specs p.readmore a {
+	margin-left: 6px;
+	float: left;
+}
+
+/* Quick view */
+.new_div .name{
+    white-space: normal !important;
+
+}
+#qView .modal-dialog {
+	width:98% !important;
+	margin:0.25em auto;
+}
+.quickview {
+	width:100%;
+	text-align:center;
+}
+.quickview .close {
+	font-size:2.5em;
+}
+.quickview div {
+	width:90%;
+}
+.quickview img, .quickview div {
+	float:none;
+	padding:0;
+	margin:0 auto;
+
+}
+.quickview img {
+	height:auto !important;
+	text-align:center;
+	margin-top:1em;
+}
+.quickview .modal_to_cart {
+	text-align:center !important;
+	margin:1em auto;
+}
+.quickview .quick_list {
+	float:none;
+	width:50%;	
+}
+
+.cart h2, .cart table, .cart .buttons {
+	width:100%;
+}
+
+.col-md-6 {
+	width:100%;
+	margin-bottom: 2em;
+}
+.sheka_outt {
+	margin-bottom:2.5em;
+}
+
+.modal-dialog.sUp {
+	width:98% !important;
+	margin:1em auto;
+}
+}
+
+@media screen and (max-width:480px) {
+.innerpage header .search form input[type=search] {
+    width: 225px;
+}
+.innerpage header .search form input[type=submit] {
+ 
+    padding-right: 9px !important;
+    padding-left: 8px !important;
+}
+.listing .list .list-title form p input[type=text], .listing .list .list-title form p select {
+	width: 80px;
+}
+.listing .list ul li, .profile .listing ul li, .listing .related div ul li {
+	width: 100%;
+	margin-bottom: 2em;
+}
+.quickview .quick_list {
+	width:100%;	
+	margin-bottom: 2em;
+}
+}
+
+@media screen and (max-width:360px) {
+header nav ul li a {
+	padding: 0px 5px;
+}
+}
+
+@media screen and (max-width:320px) {
+input[type=text], input[type=password], input[type=search], textarea, select {
+	padding: 8px 2px;
+}
+header nav ul li a {
+	padding: 0px 2px;
+}
+.innerpage header .search form input[type=search] {
+	width: 140px;
+	padding-left: 10px;
+}
+}
+
+@media (max-device-width:480px) and (orientation:landscape) {
+}

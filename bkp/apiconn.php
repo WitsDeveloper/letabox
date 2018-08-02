@@ -1,0 +1,6 @@
+<?php
+
+
+
+//end for amazon
+?>

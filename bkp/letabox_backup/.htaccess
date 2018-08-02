@@ -1,0 +1,23 @@
+# Serve all resources labeled as `text/html` or `text/plain`
+# with the media type `charset` parameter set to `UTF-8`.
+AddDefaultCharset utf-8
+
+# Deny access to folders in www
+Options -Indexes
+
+# Rewrite rules
+RewriteEngine On
+
+# not file or directory
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Add .php extension
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+# 404 Error
+ErrorDocument 404 /404
+
+
+
+
